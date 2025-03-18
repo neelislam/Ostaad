@@ -37,7 +37,7 @@ var calculateAreaWithArrow = (double length, double width ) => (length  * width)
 double calculateArea_with_OptionalParameter(double length, double width , [String ? des]){
   double area = length  * width;
   if(des != null){
-    print("$des == $area");
+    print("$des == $area"); //show des also
   } else {
     print("Only area: $area");
   }
