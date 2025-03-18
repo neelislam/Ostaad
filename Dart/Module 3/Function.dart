@@ -18,10 +18,28 @@ print("With function Area: ${calculateArea(0.5,0.5)}");
 //for area2
   print("With function Area: ${calculateArea(1.5,1.5)}");
 
+
+  print("With Arrow function Area: ${calculateAreaWithArrow(1.5,1.5)}");
+
+  print("With Optional parameter function Area: ${calculateArea_with_OptionalParameter(1.5,1.5, "Dhaka")}");
+  print("With Optional parameter function Area: ${calculateArea_with_OptionalParameter(0.5,0.5, "NYC")}");
+
 }
 
 //with Function
 double calculateArea(double length, double width ){
   double area = length  * width;
+  return area;
+}
+
+var calculateAreaWithArrow = (double length, double width ) => (length  * width);
+
+double calculateArea_with_OptionalParameter(double length, double width , [String ? des]){
+  double area = length  * width;
+  if(des != null){
+    print("$des == $area");
+  } else {
+    print("Only area: $area");
+  }
   return area;
 }
