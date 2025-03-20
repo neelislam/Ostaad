@@ -1,3 +1,5 @@
+import  'human.dart';
+
 main(){
   //class
   //object
@@ -42,6 +44,8 @@ rahim.hands =1; //manually defined this object will show
 rahim.legs =1;
 print(rahim.hands);
 print(rahim.legs);
+print(rahim.moving());
+print(rahim.eating);
 
 }
 
@@ -52,19 +56,19 @@ class Student{
 
 }
 
-class human{
-  int legs = 2;
-  int hands = 2;
-  late String  color;
-  int eye =2;
-  late String name;
-
-  //method
-  moving(){
-    print('Rahim is moving');
-  }
-  eating(){
-    print('Rahim is eating');
-  }
-}
+// class human{
+//   int legs = 2;
+//   int hands = 2;
+//   late String  color;
+//   int eye =2;
+//   late String name;
+//
+//   //method
+//   moving(){
+//     print('$name is moving');
+//   }
+//   eating(){
+//     print('$name is eating');
+//   }
+// }
 
