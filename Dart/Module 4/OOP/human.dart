@@ -6,7 +6,9 @@ class human{
   int eye = 2;
   String ? name;
   static String className = 'Human Class';
-
+human(){
+  print('Human object created!');
+}
   //method
   moving() {
     print('$name is moving');
