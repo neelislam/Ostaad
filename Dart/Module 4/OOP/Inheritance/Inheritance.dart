@@ -20,10 +20,22 @@ class Father{
 class Son extends Father{
   String Sonname;
 
+  @override
+  incomeSource() {    //method call korle override kore ffelbe method k
+ print('App developer');
+  }
+
   Son(this.Sonname):super("Rahim");
 
+ getFatherincomesource() {
+ print('Farmer');
+ }
 
+
+ 
 }
+
+
 
 main(){
   Son Rifat = Son('Rifat');
@@ -31,6 +43,8 @@ main(){
   Rifat.house = 'Building';
   print(Rifat.land);
   print(Rifat.house);
+  Rifat.incomeSource();
+  Rifat.getFatherincomesource();
 
 }
 
