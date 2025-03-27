@@ -21,7 +21,7 @@ class Dog extends Animal {
 
   @override
   speak() {
-    print('$name gue gue');  //overrided -> speak() in line 13
+    print('$name gue gue');  //override -> speak() in line 13
   }
   String color;
   Dog(this.color,String name) : super(name);
