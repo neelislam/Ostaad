@@ -12,7 +12,7 @@ abstract class Student {
 
   }
 }
-
+//
 class person extends Student {
 
   String name;
