@@ -1,4 +1,4 @@
-main(){
+ main(){
 
 //without function
   double length1 = 0.5;

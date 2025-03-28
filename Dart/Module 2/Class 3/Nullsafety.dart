@@ -1,5 +1,7 @@
 main(){
   int ? age; //nullable
+  String? Name;
+  print(Name?? "Nullable ¡²³¤€¼½¼¼¾‘’’¥×¬¬  áßð©µñzææäåé®þüúíóöø»«´¶øç¿´´¨°°°");
   print(age);
   age = 25;
   print(age ?? 20); // if null, then print 20
@@ -9,10 +11,11 @@ main(){
 
 
   late String name; // no need to assign initially
-  //print(name);  -- Not usable
+  //print(name);  //-- Not usable
 
 
   List<int>numberList = [1,2,3]; // wont take null
   List<int?>nullable = [1,2,3,null]; // will work
-
+print(numberList);
+print(nullable);
 }

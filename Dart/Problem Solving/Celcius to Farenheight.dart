@@ -14,5 +14,5 @@ main(){
 
   fahrenheit = (Celsius! * 9/5) +32;
   String? f = fahrenheit.toStringAsFixed(2);
-  print('$Celsius Celsius is  $f Fahrenheit');
+  print('$Celsius° Celsius is  $f° Fahrenheit');
 }

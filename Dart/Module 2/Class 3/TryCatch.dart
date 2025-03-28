@@ -12,5 +12,5 @@ main(){
     print("Error in : $e");
   }
 
-  print("I cam still run bcz try catch handeled above");
+  print("I cam still run bcz try catch handled above");
 }
