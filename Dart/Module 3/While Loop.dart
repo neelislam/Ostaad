@@ -6,7 +6,7 @@ main(){
   i++;
   }
   while (i<=10){
-    print("15 x $i = ${15*(i)}");
+    print("15 x $i = ${15*(i)}");//damn
     i++;
   }
   List <String> student = ['Rahim', 'Toufik', 'dojo', 'riff'];
