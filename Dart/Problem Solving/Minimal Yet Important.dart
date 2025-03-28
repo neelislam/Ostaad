@@ -13,12 +13,12 @@ main() {
       if (number2! < smallest!) {
         smallest = number2;
       }
-      else if (number3! < smallest) {
+      if (number3! < smallest) {
         smallest = number3;
       }
       print(smallest);
     }
   } else {
-    print("Invalid Input! Try agai...!");
+    print("Invalid Input! Try again...!");
   }
 }
