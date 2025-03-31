@@ -1,5 +1,4 @@
 import 'dart:io';
-
 main(){
   String? input = stdin.readLineSync()!;
   var number = input.split(' ');
