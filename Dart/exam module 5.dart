@@ -1,4 +1,4 @@
-void main() {
+main(){
   var students = [
     {'name': 'Alice', 'scores': [85, 90, 78]},
     {'name': 'Bob', 'scores': [88, 76, 95]},
