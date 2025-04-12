@@ -3,7 +3,7 @@ main()async{
   //   if(value){
   //     print('Able to vote');
   //   }else{
-  //     print('Tumi ekhno shishu');
+  //     print('Tumi still shishu');
   //   }
   // });
   //
